@@ -1,1 +1,9 @@
-name:circoweb
+{
+  "name": "circoweb",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Circoweb starter site with local static server script",
+  "scripts": {
+    "start": "npx http-server -p 8080"
+  }
+}
